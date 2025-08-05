@@ -1,0 +1,525 @@
+Contexto de Continuación - Sistema de Documentación de Carreras UPDS
+
+  Tarea Principal:
+  Crear y mantener un sistema completo de documentación para carreras universitarias de UPDS (Universidad Privada
+  Domingo Savio). El workflow establecido es:
+
+  1. Para carreras existentes: Verificar información actual vs sitio web oficial y actualizar si es necesario
+  2. Para carreras nuevas: Crear directorio con nombre de la carrera y archivo .txt con información completa
+
+  Formato Estándar de Documentos:
+  [NOMBRE CARRERA] - UPDS
+  FACULTAD DE [NOMBRE]
+
+  PERFIL DEL POSTULANTE:
+  [Descripción completa]
+
+  COMPETENCIAS CLAVE:
+  • [Lista de competencias]
+
+  CAMPO LABORAL:
+  ROLES PROFESIONALES:
+  • [Lista de roles]
+
+  SECTORES DE TRABAJO:
+  • [Lista de sectores]
+
+  ÁREAS DE ESPECIALIZACIÓN:
+  • [Lista de áreas]
+
+  PLAN DE ESTUDIOS OFICIAL (UPDS WEB):
+  GRADO ACADÉMICO: [Título]
+  DURACIÓN: [Semestres/años]
+
+  [Plan detallado por semestres si disponible]
+
+  MODALIDADES DE GRADUACIÓN:
+  • [Lista modalidades]
+
+  SEDES ACADÉMICAS:
+  [Lista de sedes]
+
+  [Características únicas, ventajas, perfil egreso, etc.]
+
+  NOTA: Información extraída del sitio web oficial de UPDS...
+
+  Estado Actual:
+  - Completadas: Ingeniería Industrial (actualizada), Medicina (verificada - ya completa), Fisioterapia y
+  Kinesiología (creada)
+  - Directorio base: /home/tunek/carreras/Carreras/
+  - Herramientas: WebFetch para extraer info oficial, TodoWrite para seguimiento, creación de directorios con bash
+
+  Siguiente paso: Continuar con URLs de carreras siguiendo el mismo workflow establecido.
+
+> https://www.upds.edu.bo/carrera/nutricion-y-dietetica-cochabamba/
+
+● Update Todos
+  ⎿  ☐ Verificar si existe directorio para Nutrición y Dietética
+     ☐ Comparar información existente con sitio web oficial
+     ☐ Actualizar información si es necesario
+
+● Update Todos
+  ⎿  ☐ Verificar si existe directorio para Nutrición y Dietética
+     ☐ Comparar información existente con sitio web oficial
+     ☐ Actualizar información si es necesario
+
+● Search(pattern: "*nutricion*")
+  ⎿  Found 0 files 
+
+● Search(pattern: "*Nutricion*")
+  ⎿  Found 0 files 
+
+● List(.)
+  ⎿  Listed 92 paths (ctrl+r to expand)
+
+● Update Todos
+  ⎿  ☒ Verificar si existe directorio para Nutrición y Dietética
+     ☐ Comparar información existente con sitio web oficial
+     ☐ Actualizar información si es necesario
+
+● Read(Nutricion y dietetica/Nutricion_y_Dietetica_Contenido.txt)
+  ⎿  Read 164 lines (ctrl+r to expand)
+
+● Fetch(https://www.upds.edu.bo/carrera/nutricion-y-dietetica-cochabamba/)
+  ⎿  Received 264.3KB (200 OK)
+
+● Update Todos
+  ⎿  ☒ Verificar si existe directorio para Nutrición y Dietética
+     ☒ Comparar información existente con sitio web oficial
+     ☒ Actualizar información si es necesario
+
+● Nutrición y Dietética ya existe y está completa. Al comparar la información existente (extraída de imágenes) con
+  el sitio web oficial, confirmo que:
+
+  Información existente más completa:
+  - Plan de estudios detallado con 9 semestres completos
+  - Materias específicas por semestre
+  - Materias electivas detalladas
+  - Requisitos específicos de inscripción
+  - Áreas de internado rotatorio
+
+  Información web oficial:
+  - Confirma duración de 9 semestres
+  - Misma distribución práctica/teórica (57%/43%)
+  - Mismas sedes académicas
+  - Competencias y áreas profesionales coinciden
+
+  La información actual es precisa y más detallada que la web. No requiere actualización.
+
+> https://www.upds.edu.bo/carrera/bioquimica-y-farmacia-cochabamba/
+
+● Update Todos
+  ⎿  ☐ Verificar si existe directorio para Bioquímica y Farmacia         
+     ☐ Extraer información oficial del sitio web de Bioquímica y Farmacia
+     ☐ Crear directorio y archivo txt para Bioquímica y Farmacia
+
+● Update Todos
+  ⎿  ☐ Verificar si existe directorio para Bioquímica y Farmacia         
+     ☐ Extraer información oficial del sitio web de Bioquímica y Farmacia
+     ☐ Crear directorio y archivo txt para Bioquímica y Farmacia
+
+● Search(pattern: "*bioquimica*")
+  ⎿  Found 0 files 
+
+● Search(pattern: "*farmacia*")
+  ⎿  Found 0 files 
+
+● Search(pattern: "*Bioquimica*")
+  ⎿  Found 0 files 
+
+● Search(pattern: "*Farmacia*")
+  ⎿  Found 0 files 
+
+● Update Todos
+  ⎿  ☒ Verificar si existe directorio para Bioquímica y Farmacia         
+     ☐ Extraer información oficial del sitio web de Bioquímica y Farmacia
+     ☐ Crear directorio y archivo txt para Bioquímica y Farmacia
+
+● Fetch(https://www.upds.edu.bo/carrera/bioquimica-y-farmacia-cochabamba/)
+  ⎿  Received 260.2KB (200 OK)
+
+● Update Todos
+  ⎿  ☒ Verificar si existe directorio para Bioquímica y Farmacia         
+     ☒ Extraer información oficial del sitio web de Bioquímica y Farmacia
+     ☐ Crear directorio y archivo txt para Bioquímica y Farmacia
+
+● Bash(mkdir -p "/home/tunek/carreras/Carreras/bioquimica-y-farmacia")
+  ⎿  (No content)
+
+● Create(bioquimica-y-farmacia/Bioquimica_y_Farmacia_Contenido.txt)
+  ⎿  Updated bioquimica-y-farmacia/Bioquimica_y_Farmacia_Contenido.txt with 141 additions                          
+         1 +  BIOQUÍMICA Y FARMACIA - UPDS
+         2 +  FACULTAD DE CIENCIAS DE LA SALUD
+         3 +  
+         4 +  PERFIL DEL POSTULANTE:
+         5 +  
+         6 +  El profesional Bioquímico Farmacéutico de la Universidad Privada Domingo Savio (UPDS) es un 
+           + profesional ético e integral, preparado para trabajar en equipos multidisciplinarios de salud. Posee 
+           + capacidades para aplicar biomedicina con protocolos de calidad, integrar conocimientos biológicos y 
+           + humanísticos, gestionar atención farmacéutica, impulsar la innovación en la industria farmacéutica y 
+           + alimentaria, y conducir investigación en bioanálisis.
+         7 +  
+         8 +  COMPETENCIAS CLAVE:
+         9 +  • Aplicar biomedicina con protocolos de calidad
+        10 +  • Integrar conocimientos biológicos y humanísticos
+        11 +  • Gestionar atención farmacéutica integral
+        12 +  • Impulsar innovación en industria farmacéutica y alimentaria
+        13 +  • Conducir investigación en bioanálisis
+        14 +  • Trabajar en equipos multidisciplinarios de salud
+        15 +  • Aplicar protocolos de calidad en salud
+        16 +  • Desarrollar soluciones de salud éticas e innovadoras
+        17 +  
+        18 +  CAMPO LABORAL:
+        19 +  
+        20 +  AMBIENTES PROFESIONALES:
+        21 +  • Diagnósticos clínicos
+        22 +  • Manufactura farmacéutica
+        23 +  • Prevención y tratamiento de salud
+        24 +  • Investigación y roles académicos
+        25 +  • Regulación farmacéutica
+        26 +  
+        27 +  ROLES PROFESIONALES:
+        28 +  • Bioquímico clínico
+        29 +  • Farmacéutico hospitalario
+        30 +  • Especialista en diagnóstico clínico
+        31 +  • Investigador en bioanálisis
+        32 +  • Especialista en industria farmacéutica
+        33 +  • Consultor en atención farmacéutica
+        34 +  • Especialista en control de calidad
+        35 +  • Docente académico
+        36 +  • Regulador farmacéutico
+        37 +  
+        38 +  SECTORES DE TRABAJO:
+        39 +  • Hospitales públicos y privados
+        40 +  • Laboratorios clínicos
+        41 +  • Industria farmacéutica
+        42 +  • Industria alimentaria
+        43 +  • Centros de investigación
+        44 +  • Farmacias y droguerías
+        45 +  • Organismos reguladores
+        46 +  • Instituciones académicas
+        47 +  • Consultoría independiente
+        48 +  
+        49 +  ÁREAS DE ESPECIALIZACIÓN:
+        50 +  • Bioanálisis clínico
+        51 +  • Farmacia clínica
+        52 +  • Industria farmacéutica
+        53 +  • Control de calidad
+        54 +  • Investigación bioquímica
+        55 +  • Atención farmacéutica
+        56 +  • Regulación sanitaria
+        57 +  • Innovación farmacéutica
+        58 +  
+        59 +  PLAN DE ESTUDIOS OFICIAL (UPDS WEB):
+        60 +  
+        61 +  GRADO ACADÉMICO: Licenciatura en Bioquímica y Farmacia
+        62 +  DURACIÓN: 9 semestres (4.5 años)
+        63 +  
+        64 +  DISTRIBUCIÓN CURRICULAR:
+        65 +  - Teoría: 46%
+        66 +  - Práctica: 54%
+        67 +  
+        68 +  ÁREAS DE APRENDIZAJE:
+        69 +  - Desarrollo Clínico: 73%
+        70 +  - Biomédica: 12%
+        71 +  - Desarrollo Psicosocial: 7%
+        72 +  - Desarrollo Integral: 7%
+        73 +  - Otras especialidades: 1%
+        74 +  
+        75 +  CARACTERÍSTICAS CURRICULARES:
+        76 +  • Currículo comprensivo que cubre anatomía, química, farmacología y ciencias clínicas
+        77 +  • Incluye rotaciones de internado en entornos clínicos, hematológicos, industriales y farmacológicos
+        78 +  • Electivas opcionales como Marketing Farmacéutico, Nutrición Parenteral, Genética Microbiana
+        79 +  
+        80 +  NOTA: El plan de estudios detallado por semestres no está completamente disponible en el sitio web 
+           + oficial consultado. La información se basa en la estructura curricular y distribución de áreas 
+           + proporcionada por UPDS.
+        81 +  
+        82 +  MODALIDADES DE GRADUACIÓN:
+        83 +  • Examen de Grado
+        84 +  • Tesis
+        85 +  • Trabajo Dirigido
+        86 +  • Proyecto de Grado
+        87 +  • Graduación por Excelencia
+        88 +  
+        89 +  PROCESO DE ADMISIÓN:
+        90 +  • Pre-registro en línea
+        91 +  • Presentación de información personal
+        92 +  • Cumplimiento de requisitos de inscripción
+        93 +  
+        94 +  SEDES ACADÉMICAS:
+        95 +  Disponible en múltiples campus de UPDS incluyendo:
+        96 +  - Santa Cruz
+        97 +  - Cochabamba
+        98 +  - La Paz
+        99 +  - Cobija
+       100 +  
+       101 +  CARACTERÍSTICAS ÚNICAS DEL PROGRAMA:
+       102 +  • Enfoque en soluciones de salud éticas e innovadoras
+       103 +  • Aprendizaje orientado a la práctica (54% práctica vs 46% teoría)
+       104 +  • Alta especialización en desarrollo clínico (73% del currículo)
+       105 +  • Preparación para roles multifacéticos en salud
+       106 +  • Enfoque en calidad y atención integral al paciente
+       107 +  • Formación para trabajo en equipos multidisciplinarios
+       108 +  • Preparación integral en biomedicina y humanidades
+       109 +  • Enfoque en innovación farmacéutica
+       110 +  
+       111 +  ESPECIALIDADES TÉCNICAS INCLUIDAS:
+       112 +  • Bioanálisis y diagnóstico clínico
+       113 +  • Farmacología y farmacia clínica
+       114 +  • Química analítica y bioquímica
+       115 +  • Control de calidad farmacéutico
+       116 +  • Investigación bioquímica
+       117 +  • Atención farmacéutica integral
+       118 +  • Regulación y normativa sanitaria
+       119 +  • Innovación en industria farmacéutica
+       120 +  
+       121 +  VENTAJAS COMPETITIVAS:
+       122 +  • Formación práctica predominante
+       123 +  • Alta especialización clínica
+       124 +  • Preparación integral teórica y práctica
+       125 +  • Enfoque ético e innovador
+       126 +  • Acceso a múltiples sectores laborales
+       127 +  • Formación para trabajo multidisciplinario
+       128 +  • Preparación para investigación
+       129 +  • Oportunidades de especialización
+       130 +  
+       131 +  PERFIL DE EGRESO:
+       132 +  • Bioquímico farmacéutico integral
+       133 +  • Profesional ético y competente
+       134 +  • Especialista en diagnóstico clínico
+       135 +  • Experto en atención farmacéutica
+       136 +  • Investigador en bioanálisis
+       137 +  • Profesional preparado para equipos multidisciplinarios
+       138 +  • Especialista en innovación farmacéutica
+       139 +  • Experto en calidad y protocolos de salud
+       140 +  
+       141 +  NOTA: La información ha sido extraída del sitio web oficial de UPDS, asegurando que el contenido sea 
+           + preciso y actualizado según la información disponible públicamente.
+       142   \ No newline at end of file
+
+● Update Todos
+  ⎿  ☒ Verificar si existe directorio para Bioquímica y Farmacia         
+     ☒ Extraer información oficial del sitio web de Bioquímica y Farmacia
+     ☒ Crear directorio y archivo txt para Bioquímica y Farmacia
+
+● He creado exitosamente el directorio bioquimica-y-farmacia con el archivo Bioquimica_y_Farmacia_Contenido.txt que
+   contiene toda la información oficial extraída del sitio web de UPDS.
+
+  La carrera es de 9 semestres con enfoque práctico (54% práctica, 46% teoría) y alta especialización en desarrollo
+   clínico (73% del currículo). Está disponible en 4 sedes académicas.
+
+> https://www.upds.edu.bo/carrera/ciencias-de-la-comunicacion-social-cochabamba-semipresencial/
+
+● Update Todos
+  ⎿  ☐ Verificar si existe directorio para Ciencias de la Comunicación Social         
+     ☐ Extraer información oficial del sitio web de Ciencias de la Comunicación Social
+     ☐ Crear directorio y archivo txt para Ciencias de la Comunicación Social
+
+● Update Todos
+  ⎿  ☐ Verificar si existe directorio para Ciencias de la Comunicación Social         
+     ☐ Extraer información oficial del sitio web de Ciencias de la Comunicación Social
+     ☐ Crear directorio y archivo txt para Ciencias de la Comunicación Social
+
+● Search(pattern: "*comunicacion*")
+  ⎿  Found 0 files 
+
+● Search(pattern: "*Comunicacion*")
+  ⎿  Found 0 files 
+
+● Search(pattern: "*ciencias*")
+  ⎿  Found 0 files 
+
+● Search(pattern: "*social*")
+  ⎿  Found 0 files 
+
+● Update Todos
+  ⎿  ☒ Verificar si existe directorio para Ciencias de la Comunicación Social         
+     ☐ Extraer información oficial del sitio web de Ciencias de la Comunicación Social
+     ☐ Crear directorio y archivo txt para Ciencias de la Comunicación Social
+
+● Fetch(https://www.upds.edu.bo/carrera/ciencias-de-la-comunicacion-social-cochabamba-semipresencial/)
+  ⎿  Received 264KB (200 OK)
+
+● Update Todos
+  ⎿  ☒ Verificar si existe directorio para Ciencias de la Comunicación Social         
+     ☒ Extraer información oficial del sitio web de Ciencias de la Comunicación Social
+     ☐ Crear directorio y archivo txt para Ciencias de la Comunicación Social
+
+● Bash(mkdir -p "/home/tunek/carreras/Carreras/ciencias-de-la-comunicacion-social")
+  ⎿  (No content)
+
+● Create(ciencias-de-la-comunicacion-social/Ciencias_de_la_Comunicacion_Social_Contenido.txt)
+  ⎿  Updated ciencias-de-la-comunicacion-social/Ciencias_de_la_Comunicacion_Social_Contenido.txt with 155 additions
+         1 +  CIENCIAS DE LA COMUNICACIÓN SOCIAL - UPDS
+         2 +  FACULTAD DE HUMANIDADES Y COMUNICACIÓN
+         3 +  
+         4 +  PERFIL DEL POSTULANTE:
+         5 +  
+         6 +  El profesional en Ciencias de la Comunicación Social de la Universidad Privada Domingo Savio (UPDS) 
+           + está dirigido especialmente a profesionales que trabajan, estudiantes de provincias remotas y aquellos 
+           + con opciones limitadas de asistencia diaria a clases. Este programa desarrolla habilidades de 
+           + comunicación y pensamiento crítico, fomenta la autodisciplina y el aprendizaje autónomo a través de 
+     una
+           +  modalidad semipresencial flexible.
+         7 +  
+         8 +  COMPETENCIAS CLAVE:
+         9 +  • Desarrollar habilidades de comunicación efectiva
+        10 +  • Aplicar pensamiento crítico en medios de comunicación
+        11 +  • Fomentar autodisciplina y aprendizaje autónomo
+        12 +  • Gestionar producción de medios
+        13 +  • Desarrollar contenido digital
+        14 +  • Aplicar técnicas periodísticas
+        15 +  • Gestionar comunicación corporativa
+        16 +  • Manejar relaciones públicas
+        17 +  
+        18 +  CAMPO LABORAL:
+        19 +  
+        20 +  ROLES PROFESIONALES:
+        21 +  • Productor de medios
+        22 +  • Periodista
+        23 +  • Especialista en comunicación corporativa
+        24 +  • Especialista en relaciones públicas
+        25 +  • Creador de contenido digital
+        26 +  • Comunicador social
+        27 +  • Consultor en comunicación
+        28 +  • Gestor de medios digitales
+        29 +  
+        30 +  SECTORES DE TRABAJO:
+        31 +  • Medios de comunicación tradicionales
+        32 +  • Plataformas digitales y redes sociales
+        33 +  • Empresas privadas (comunicación corporativa)
+        34 +  • Instituciones públicas
+        35 +  • Agencias de publicidad y marketing
+        36 +  • Organizaciones no gubernamentales
+        37 +  • Consultoría independiente
+        38 +  • Instituciones académicas
+        39 +  
+        40 +  TRAYECTORIAS PROFESIONALES POTENCIALES:
+        41 +  • Producción de medios
+        42 +  • Periodismo
+        43 +  • Comunicación corporativa
+        44 +  • Relaciones públicas
+        45 +  • Creación de contenido digital
+        46 +  
+        47 +  ÁREAS DE ESPECIALIZACIÓN:
+        48 +  • Comunicación digital
+        49 +  • Periodismo
+        50 +  • Relaciones públicas
+        51 +  • Comunicación corporativa
+        52 +  • Producción de medios
+        53 +  • Gestión de eventos
+        54 +  • Liderazgo comunicacional
+        55 +  
+        56 +  PLAN DE ESTUDIOS OFICIAL (UPDS WEB):
+        57 +  
+        58 +  GRADO ACADÉMICO: Licenciatura en Ciencias de la Comunicación Social
+        59 +  DURACIÓN: 8 semestres (4 años)
+        60 +  MODALIDAD: Semipresencial
+        61 +  
+        62 +  DISTRIBUCIÓN CURRICULAR:
+        63 +  - Horas Virtuales: 77%
+        64 +  - Horas Presenciales: 15%
+        65 +  - Horas de Estudio Autónomo: 8%
+        66 +  
+        67 +  ÁREAS DE APRENDIZAJE:
+        68 +  - Comunicación: 49%
+        69 +  - Lenguaje: 14%
+        70 +  - Relaciones Públicas: 10%
+        71 +  - Investigación: 6%
+        72 +  - Historia: 4%
+        73 +  - Otras electivas: 16%
+        74 +  
+        75 +  CARACTERÍSTICAS CURRICULARES:
+        76 +  • Materias comprensivas a lo largo de 8 semestres
+        77 +  • Incluye habilidades prácticas como periodismo, producción de medios, comunicación digital
+        78 +  • Opciones electivas en áreas como gestión de eventos, networking, liderazgo
+        79 +  
+        80 +  NOTA: El plan de estudios detallado por semestres no está completamente disponible en el sitio web 
+           + oficial consultado. La información se basa en la estructura curricular y distribución de áreas 
+           + proporcionada por UPDS.
+        81 +  
+        82 +  MODALIDADES DE GRADUACIÓN:
+        83 +  • Examen de Grado
+        84 +  • Tesis
+        85 +  • Trabajo Dirigido
+        86 +  • Proyecto de Grado
+        87 +  • Graduación por Excelencia
+        88 +  
+        89 +  PROCESO DE ADMISIÓN:
+        90 +  • Pre-registro en línea
+        91 +  • Presentación de información personal
+        92 +  • Cumplimiento de requisitos de inscripción
+        93 +  
+        94 +  SEDES ACADÉMICAS:
+        95 +  MODALIDAD SEMIPRESENCIAL disponible en:
+        96 +  - Santa Cruz
+        97 +  - Cochabamba
+        98 +  - Tarija
+        99 +  - Trinidad
+       100 +  - Oruro
+       101 +  - La Paz
+       102 +  - Potosí
+       103 +  - Sucre
+       104 +  
+       105 +  CARACTERÍSTICAS ÚNICAS DEL PROGRAMA:
+       106 +  • Modalidad semipresencial que combina aprendizaje virtual y presencial
+       107 +  • Horarios flexibles
+       108 +  • Permite trabajar y estudiar simultáneamente
+       109 +  • Plataforma de aprendizaje digital robusta
+       110 +  • Desarrolla comunicación y pensamiento crítico
+       111 +  • Fomenta autodisciplina y aprendizaje autónomo
+       112 +  • Dirigido a profesionales que trabajan
+       113 +  • Ideal para estudiantes de provincias remotas
+       114 +  
+       115 +  VENTAJAS COMPETITIVAS:
+       116 +  • Flexibilidad de horarios
+       117 +  • Modalidad adaptada a profesionales activos
+       118 +  • Acceso desde ubicaciones remotas
+       119 +  • Tecnología educativa avanzada
+       120 +  • Desarrollo de habilidades digitales
+       121 +  • Formación integral en comunicación
+       122 +  • Preparación para mercado laboral actual
+       123 +  • Enfoque práctico y aplicado
+       124 +  
+       125 +  ESPECIALIDADES TÉCNICAS INCLUIDAS:
+       126 +  • Periodismo digital y tradicional
+       127 +  • Producción de medios audiovisuales
+       128 +  • Comunicación corporativa
+       129 +  • Relaciones públicas
+       130 +  • Creación de contenido digital
+       131 +  • Gestión de medios sociales
+       132 +  • Comunicación estratégica
+       133 +  • Liderazgo comunicacional
+       134 +  
+       135 +  PERFIL DE EGRESO:
+       136 +  • Comunicador social integral
+       137 +  • Profesional con pensamiento crítico
+       138 +  • Especialista en comunicación digital
+       139 +  • Periodista competente
+       140 +  • Experto en relaciones públicas
+       141 +  • Productor de medios capacitado
+       142 +  • Profesional con autodisciplina desarrollada
+       143 +  • Comunicador adaptado a entornos digitales
+       144 +  
+       145 +  VENTAJAS DE LA MODALIDAD SEMIPRESENCIAL:
+       146 +  • Conciliación trabajo-estudio
+       147 +  • Acceso desde cualquier ubicación
+       148 +  • Desarrollo de competencias digitales
+       149 +  • Aprendizaje autónomo
+       150 +  • Flexibilidad temporal
+       151 +  • Reducción de costos de traslado
+       152 +  • Tecnología educativa moderna
+       153 +  • Interacción virtual y presencial
+       154 +  
+       155 +  NOTA: La información ha sido extraída del sitio web oficial de UPDS, asegurando que el contenido sea 
+           + preciso y actualizado según la información disponible públicamente.
+       156   \ No newline at end of file
+  ⎿  Claude usage limit reached. Your limit will reset at 8pm (America/La_Paz).
+
+      • /upgrade to increase your usage limit.
+
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ >                                                                                                                    │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+  ? for shortcuts                                                                                                    ◯

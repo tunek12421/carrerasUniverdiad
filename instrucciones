@@ -1,0 +1,52 @@
+Contexto de Continuación - Sistema de Documentación de Carreras UPDS
+
+  Tarea Principal:
+  Crear y mantener un sistema completo de documentación para carreras universitarias de UPDS (Universidad Privada
+  Domingo Savio). El workflow establecido es:
+
+  1. Para carreras existentes: Verificar información actual vs sitio web oficial y actualizar si es necesario
+  2. Para carreras nuevas: Crear directorio con nombre de la carrera y archivo .txt con información completa
+
+  Formato Estándar de Documentos:
+  [NOMBRE CARRERA] - UPDS
+  FACULTAD DE [NOMBRE]
+
+  PERFIL DEL POSTULANTE:
+  [Descripción completa]
+
+  COMPETENCIAS CLAVE:
+  • [Lista de competencias]
+
+  CAMPO LABORAL:
+  ROLES PROFESIONALES:
+  • [Lista de roles]
+
+  SECTORES DE TRABAJO:
+  • [Lista de sectores]
+
+  ÁREAS DE ESPECIALIZACIÓN:
+  • [Lista de áreas]
+
+  PLAN DE ESTUDIOS OFICIAL (UPDS WEB):
+  GRADO ACADÉMICO: [Título]
+  DURACIÓN: [Semestres/años]
+
+  [Plan detallado por semestres si disponible]
+
+  MODALIDADES DE GRADUACIÓN:
+  • [Lista modalidades]
+
+  SEDES ACADÉMICAS:
+  [Lista de sedes]
+
+  [Características únicas, ventajas, perfil egreso, etc.]
+
+  NOTA: Información extraída del sitio web oficial de UPDS...
+
+  Estado Actual:
+  - Completadas: Ingeniería Industrial (actualizada), Medicina (verificada - ya completa), Fisioterapia y
+  Kinesiología (creada)
+  - Directorio base: /home/tunek/carreras/Carreras/
+  - Herramientas: WebFetch para extraer info oficial, TodoWrite para seguimiento, creación de directorios con bash
+
+  Siguiente paso: Continuar con URLs de carreras siguiendo el mismo workflow establecido.
