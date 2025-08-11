@@ -1,0 +1,86 @@
+PLAN DE ESTUDIOS
+
+GRADO ACADÉMICO: Licenciado en Ingeniería de Sistemas
+DURACIÓN: 9 semestres (4.5 años)
+
+ÁREAS DE APRENDIZAJE:
+- Sistemas: 56%
+- Matemáticas: 14%
+- Electrónica: 5%
+- Lenguaje: 5%
+- Investigación: 3%
+- Otras electivas: 17%
+
+MALLA CURRICULAR:
+
+PRIMER SEMESTRE:
+- Estructuras Discretas
+- Fundamentos de Matemáticas
+- Hardware y Software
+- Programación Básica
+- Técnicas de Investigación
+- Inglés I
+
+SEGUNDO SEMESTRE:
+- Álgebra Lineal
+- Sistemas Digitales I
+- Física I
+- Programación I
+- Sistemas Operativos I
+- Deontología y Prosocialidad
+
+TERCER SEMESTRE:
+- Cálculo I
+- Sistemas Digitales II
+- Investigación Operativa I
+- Programación II
+- Taller de Sistemas Operativos I
+- Inglés II
+
+CUARTO SEMESTRE:
+- Contabilidad Empresarial I
+- Diseño Web I
+- Programación III
+- Base de Datos I
+- Redes I
+- Estadística Descriptiva
+
+QUINTO SEMESTRE:
+- Programación Web I
+- Desarrollo de Sistemas I
+- Estructuras de Datos
+- Base de Datos II
+- Sistemas Operativos II
+- Estadística Inferencial
+
+SEXTO SEMESTRE:
+- Programación Web II
+- Tecnología Web I
+- Administración de Base de Datos I
+- Sistemas de Información I
+- Diseño Web II
+- Redes II
+
+SÉPTIMO SEMESTRE:
+- Inteligencia Artificial I
+- Desarrollo de Sistemas II
+- Sistemas de Información II
+- Programación IV
+- Tecnología Web II
+- Electiva 1
+
+OCTAVO SEMESTRE:
+- Aplicaciones Móviles I
+- Ingeniería de Software I
+- Sistemas de Información III
+- Tecnología de Base de Datos I
+- Seguridad Informática I
+- Electiva 2
+
+NOVENO SEMESTRE:
+- Auditoría de Sistemas I
+- Inteligencia de Negocios
+- Ingeniería de Software II
+- Emprendedurismo
+- Electiva 3
+- Electiva 4
